@@ -1,5 +1,16 @@
-# sidescroller
+# Simple sidescroller game
+This is a simple sidescroller I built using a tutorial but heavily refactored to be object-oriented.
 
+#TODO
+- [x] Object Oriented
+- [ ] Serve using GitHub pages
+- [ ] Add tests
+- [ ] Remove vue and use webpack-nano, webpack-plugin-serve
+for hot reload.
+- [ ] Fix jump velocity
+- [ ] Camera concept so that platforms don't move initially until player reaches 400
+- [ ] Custom graphics
+- [ ] Support vertical play
 ## Project setup
 ```
 npm install
@@ -19,6 +30,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
