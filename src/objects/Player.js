@@ -19,7 +19,7 @@ export class Player {
         }
         this.width = 66;
         this.height = 150;
-        this.speed = 15
+        this.speed = 7
         this.turbo = 3
         this.frame = 0
         this.right = true
@@ -90,7 +90,7 @@ export class Player {
 
     doGravity() {
         if (keys.up.pressed && this.velocity.y === 0) {
-            this.velocity.y -= 8 + this.velocity.x * .6 * gravity
+            this.velocity.y -= 15 + this.velocity.x * .3 * gravity
         }
         if (this.position.y + this.height + this.velocity.y < this.game.canvas.height)
             this.velocity.y += gravity
