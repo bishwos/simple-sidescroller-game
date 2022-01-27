@@ -4,6 +4,7 @@ This is a simple sidescroller I built using a tutorial but heavily refactored to
 #TODO
 - [x] Object Oriented
 - [x] Serve using GitHub pages
+- [ ] Add help on start
 - [ ] Add tests
 - [ ] Remove vue and use webpack-nano, webpack-plugin-serve
 for hot reload.
