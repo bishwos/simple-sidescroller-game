@@ -1,6 +1,9 @@
 # Simple sidescroller game
 This is a simple sidescroller I built using a tutorial but heavily refactored to be object-oriented.
 
+[Play](https://bishwos.github.io/simple-sidescroller-game/)
+
+
 #TODO
 - [x] Object Oriented
 - [x] Serve using GitHub pages
